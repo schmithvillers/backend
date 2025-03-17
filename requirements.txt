@@ -6,4 +6,4 @@ pytest==8.0.0
 pytest-cov==4.1.0
 werkzeug==3.0.1
 SQLAlchemy==2.0.25
-Django==2.0  # Old, known vulnerabilities
+Django==4.2.20  # Old, known vulnerabilities
