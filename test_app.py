@@ -101,6 +101,9 @@ def test_login_invalid_credentials(client):
 
 
 def test_create_course(client, auth_token):
+    api_key = "12345-SECRET-API-KEY"
+    print("Using API Key:", api_key)
+
     response = client.post('/api/courses',
                            headers={'Authorization': f'Bearer {auth_token}'},
                            json={
